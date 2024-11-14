@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Оформлення замовлення</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body"> 
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <button class="header__burger">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+                            <path d="M0.25 2V0.5H13.75V2H0.25Z" fill="#8489A8"/>
+                            <path d="M0.25 5.75H13.75V4.25H0.25V5.75Z" fill="#8489A8"/>
+                            <path d="M0.25 9.5H13.75V8H0.25V9.5Z" fill="#8489A8"/>
+                        </svg>
+                    </span>
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                            <path d="M11.25 1.8075L10.1925 0.75L6 4.9425L1.8075 0.75L0.75 1.8075L4.9425 6L0.75 10.1925L1.8075 11.25L6 7.0575L10.1925 11.25L11.25 10.1925L7.0575 6L11.25 1.8075Z" fill="#8489A8"/>
+                        </svg>
+                    </span>
+                </button>
+
+                <a class="header__logo" href="index.html">
+                    <img src="img/Polifarb_logo.svg" alt="">
+                </a>
+
+                <div class="header__catalog">
+                    <div class="container">
+                        <div class="header__catalog-menu">
+                            <ul>
+                                <li>
+                                    <a href="#">Інтер'єрні фарби <span>7</span></a>
+                                </li>
+                                <li>
+                                    <a href="#">Фасадні фарби <span>4</span></a>
+                                </li>
+                                <li>
+                                    <a href="#">Матеріали для дерева та металу <span>9</span></a>
+                                </li>
+                                <li>
+                                    <a href="#">Штукатурки та декор <span>4</span></a>
+                                </li>
+                                <li>
+                                    <a href="#">Для підготовки поверхні <span>10</span></a>
+                                </li>
+                                <li>
+                                    <a href="#">Спеціальні матеріали <span>6</span></a>
+                                </li>
+                                <li>
+                                    <a href="#">Для розмітки доріг <span>2</span></a>
+                                </li>
+                                <li>
+                                    <a href="#">Акційні пропозиції</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header__catalog-image">
+                        <img src="img/header-catalog.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="header__content">
+                    <form class="header__form" action="#">
+                        <label for="search">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6753 2.40753e-08C8.97284 0.000145054 7.29514 0.407392 5.78213 1.18776C4.26912 1.96814 2.96467 3.09901 1.97762 4.48602C0.990567 5.87304 0.349534 7.47598 0.107999 9.16111C-0.133535 10.8462 0.0314335 12.5647 0.589142 14.1731C1.14685 15.7815 2.08113 17.2333 3.31402 18.4072C4.54692 19.5811 6.04269 20.4432 7.67653 20.9215C9.31037 21.3998 11.0349 21.4804 12.7063 21.1567C14.3776 20.833 15.9473 20.1143 17.2844 19.0606L21.8714 23.6474C22.1083 23.8762 22.4256 24.0028 22.7549 24C23.0842 23.9971 23.3992 23.865 23.6321 23.6321C23.865 23.3993 23.9971 23.0843 24 22.7549C24.0028 22.4256 23.8762 22.1084 23.6474 21.8715L19.0604 17.2847C20.3014 15.7105 21.074 13.8187 21.29 11.8259C21.506 9.83307 21.1565 7.81971 20.2816 6.01622C19.4067 4.21274 18.0417 2.69199 16.3428 1.62803C14.6439 0.564065 12.6798 -0.000134569 10.6753 2.40753e-08ZM2.51113 10.6758C2.51113 8.51058 3.37128 6.43408 4.90235 4.90307C6.43342 3.37206 8.50999 2.51194 10.6753 2.51194C12.8405 2.51194 14.9171 3.37206 16.4482 4.90307C17.9792 6.43408 18.8394 8.51058 18.8394 10.6758C18.8394 12.8409 17.9792 14.9174 16.4482 16.4484C14.9171 17.9795 12.8405 18.8396 10.6753 18.8396C8.50999 18.8396 6.43342 17.9795 4.90235 16.4484C3.37128 14.9174 2.51113 12.8409 2.51113 10.6758Z" fill="#8489A8"/>
+                            </svg>
+                        </label>
+                        <input name="search" id="search" type="text">
+                    </form>
+                    <div class="header__catalog-button">
+                        <button class="header__link header__catalog-close">Закрыть</button>
+                        <button class="header__link header__catalog-open header__catalog-btn">Каталог+</button>
+                    </div>                    
+                    <nav class="header__menu">
+                        <ul>
+                            <li>
+                                <a class="header__link" href="index.html">Головна</a>
+                            </li>
+                            <li>
+                                <a class="header__link" href="about.html">Про компанію</a>
+                            </li>
+                            <li>
+                                <a class="header__link" href="projects.html">Реалізовані проекти</a>
+                            </li>
+                            <li>
+                                <button class="header__link header__catalog-btn">Каталог+</button>
+                            </li>
+                            <li>
+                                <a class="header__link" href="#">Акції</a>
+                            </li>
+                            <li>
+                                <a class="header__link" href="vacancies.html">Вакансії</a>
+                            </li>
+                            <li>
+                                <a class="header__link" href="contacts.html">Контакти</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                
+                <div class="header__end">
+                    <div class="header__lang">
+                        <p class="header__lang-name">UA+</p>
+                        <div class="header__lang-block">
+                            <a class="header__lang-item" href="#">En</a>
+                            <a class="header__lang-item" href="#">Ru</a>
+                        </div>
+                    </div>
+                    <div class="header__block">
+                        <a class="header__block-item" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="20" viewBox="0 0 26 20" fill="none">
+                                <path d="M4.69231 4.6L13 10.9L21.3077 4.6M3.30769 1H22.6923C23.9668 1 25 2.00736 25 3.25V16.75C25 17.9926 23.9668 19 22.6923 19H3.30769C2.03319 19 1 17.9926 1 16.75V3.25C1 2.00736 2.03319 1 3.30769 1Z" stroke="#6600A1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a class="header__block-item" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.61812 0.121921C2.93165 0.301823 2.33801 0.677878 1.81657 1.2631C-2.09145 5.64922 0.544259 14.4152 7.44003 19.9657C8.01726 20.4302 8.15304 20.4985 8.49974 20.4985C9.04012 20.4985 9.38137 20.1663 9.41277 19.6095C9.44105 19.1087 9.41744 19.0767 8.4143 18.2571C2.58956 13.4978 0.122891 5.7986 3.35069 2.45213C4.0855 1.6903 5.08979 1.77 5.9333 2.6571C7.323 4.1185 7.87057 5.32642 7.55316 6.23024C7.41091 6.63532 7.2164 6.87357 6.11055 7.9973C4.78305 9.34632 4.72577 9.47633 5.10932 10.2701C6.60946 13.3746 10.6409 17.409 13.743 18.9103C14.5361 19.2942 14.666 19.2368 16.014 17.9083C17.1369 16.8016 17.375 16.607 17.7797 16.4646C18.6829 16.147 19.8899 16.6949 21.3502 18.0857C22.5916 19.2679 22.2302 20.5544 20.3986 21.4733C18.5504 22.4005 16.084 22.2956 13.2161 21.1676C12.1548 20.7502 11.4786 21.0736 11.5357 21.9712C11.5767 22.6153 12.11 22.9359 14.1022 23.5137C19.6246 25.1155 24.7623 22.5705 23.9061 18.6573C23.5063 16.8301 20.604 14.5676 18.531 14.4671C17.2046 14.4028 16.4999 14.7452 15.0184 16.1738C14.1151 17.0449 14.2238 16.9899 13.8509 16.7646C11.3342 15.2436 8.52671 12.409 7.16877 10.0178L7.05671 9.82048L7.29023 9.57276C7.41864 9.43645 7.76882 9.07197 8.06837 8.76278C10.2683 6.49188 10.0898 4.36226 7.45567 1.45427C6.3334 0.21535 5.01219 -0.243339 3.61812 0.121921Z" fill="#ED6E00"/>
+                            </svg>
+                        </a>
+                        <button class="header__block-item basket-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 0 25 23" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666196 0.0482269C0.10966 0.249144 -0.155786 0.885816 0.0947273 1.419C0.236807 1.72142 0.343288 1.78772 1.61936 2.36837C2.32238 2.68825 2.84559 2.9549 2.88377 3.01278C2.91956 3.06706 3.53816 5.64661 4.25845 8.74511C5.74477 15.1392 5.67508 14.9065 6.26665 15.4484C6.62799 15.7794 6.95689 15.9658 7.3624 16.0696C7.7836 16.1774 20.7009 16.181 21.1122 16.0735C21.7862 15.8972 22.4438 15.3773 22.7357 14.7897C22.9472 14.3641 24.9566 5.941 24.9952 5.31794C25.0723 4.07629 24.2123 2.95509 22.9892 2.70267C22.7893 2.66139 20.7257 2.65062 15.1053 2.66151L7.49219 2.67631L7.28314 2.82139C6.60563 3.2915 6.77871 4.36807 7.56635 4.58292C7.69507 4.61801 10.0889 4.63429 15.1528 4.63448C23.281 4.63479 22.7523 4.6151 22.9145 4.92329C23.0274 5.1377 23.0567 4.99286 21.9761 9.55738C20.9173 14.0292 20.9371 13.9577 20.7213 14.0829C20.4894 14.2175 7.92492 14.2008 7.73162 14.0656C7.53447 13.9277 7.59546 14.1622 6.25317 8.38239C4.68607 1.6344 4.83527 2.15532 4.30967 1.59757C4.00088 1.26995 3.80058 1.15841 2.29063 0.473211C1.25808 0.00471347 0.98482 -0.0667775 0.666196 0.0482269ZM9.26696 18.0996C7.41513 18.5402 6.71249 20.8131 8.00437 22.184C9.50834 23.7799 12.184 22.8961 12.3884 20.736C12.5467 19.0626 10.9363 17.7025 9.26696 18.0996ZM17.9684 18.1066C16.0691 18.6018 15.4251 20.9078 16.8071 22.2653C18.3981 23.8284 21.1187 22.7271 21.1187 20.52C21.1187 18.9015 19.5446 17.6956 17.9684 18.1066ZM10.364 19.7918C10.851 20.1568 10.9053 20.7243 10.4922 21.1302C10.075 21.5399 9.45868 21.4746 9.1228 20.9849C8.58756 20.2047 9.60707 19.2247 10.364 19.7918ZM19.0934 19.7842C19.7677 20.2227 19.5241 21.2686 18.7183 21.3944C18.3016 21.4595 17.8412 21.1613 17.7252 20.751C17.506 19.9755 18.4076 19.3384 19.0934 19.7842Z" fill="#00B394"/>
+                            </svg>
+                            <span>0</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="order">
+            <div class="container">
+                <nav class="breadcrumbs">
+                    <ul>
+                        <li>
+                            <a href="index.html">Головна</a>
+                        </li>
+                        <li>
+                            <a class="active" href="order.html">Оформлення замовлення</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="order__inner">
+                    <h1 class="order__title">Кошик</h1>
+                    <form class="order__content" action="#">
+                        <div class="order__info">
+                            <div class="order__info-box">
+                                <h3 class="order__info-name">Контактна інформація:</h3>
+                                <div class="order__info-block form__content">
+                                    <div class="form__content-block">
+                                        <input type="text" id="name" name="name">
+                                        <label for="name">Ваше ім’я</label>
+                                    </div>
+                                    <div class="form__content-block">
+                                        <input type="tel" id="tel" name="tel">
+                                        <label for="tel">Номер телефону</label>
+                                    </div>
+                                    <div class="form__content-block">
+                                        <input type="email" id="email" name="email">
+                                        <label for="email">Email</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="order__info-box">
+                                <h3 class="order__info-name">Способи оплати:</h3>
+                                <div class="order__info-block form__content-radios">
+                                    <label class="form__content-radio">
+                                        <input type="radio" name="pay" class="checkbox">
+                                        <span class="checkmark"></span>Оплата на рахунок (аванс)
+                                    </label>
+                                    <label class="form__content-radio">
+                                        <input type="radio" name="pay" class="checkbox">
+                                        <span class="checkmark"></span>Оплата частинами Приватбанк
+                                    </label>
+                                    <label class="form__content-radio">
+                                        <input type="radio" name="pay" class="checkbox">
+                                        <span class="checkmark"></span>Оплата частинами Monobank
+                                    </label>
+                                    <label class="form__content-radio">
+                                        <input type="radio" name="pay" class="checkbox">
+                                        <span class="checkmark"></span>Оплата Visa/Mastercart
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="order__info-box">
+                                <h3 class="order__info-name">Спосіб доставки:</h3>
+                                <div class="order__info-block form__content-radios">
+                                    <label class="form__content-radio">
+                                        <input type="radio" name="delivery" class="checkbox">
+                                        <span class="checkmark"></span>Нова Пошта - У відділення
+                                    </label>
+                                    <label class="form__content-radio">
+                                        <input type="radio" name="delivery" class="checkbox">
+                                        <span class="checkmark"></span>Вантажним бусом до будинку
+                                    </label>
+                                    <label class="form__content-radio">
+                                        <input type="radio" name="delivery" class="checkbox">
+                                        <span class="checkmark"></span>Нова Пошта - До будинку/квартири
+                                    </label>
+                                    <label class="form__content-radio">
+                                        <input type="radio" name="delivery" class="checkbox">
+                                        <span class="checkmark"></span>Ще не визначився
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="order__info-box">
+                                <h3 class="order__info-name">Адреса доставки:</h3>
+                                <div class="order__info-block form__content">
+                                    <div class="form__content-block">
+                                        <input type="text" id="region" name="region">
+                                        <label for="region">Область</label>
+                                    </div>
+                                    <div class="form__content-block">
+                                        <input type="text" id="city" name="city">
+                                        <label for="city">Місто</label>
+                                    </div>
+                                    <div class="form__content-block">
+                                        <input type="text" id="department" name="department">
+                                        <label for="department">Віділення</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="order__info-box">
+                                <h3 class="order__info-name">Ви можете додати коментар до замовлення:</h3>
+                                <div class="order__info-block form__content">
+                                    <div class="form__content-block form__content-message">
+                                        <textarea name="message" id="message"></textarea>
+                                        <label for="message">Коментар</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="order__right">
+                            <div class="order__basket">
+                                <h3 class="order__basket-title">Список товарів</h3>
+                                <div class="order__basket-block">
+                                    <div class="basket__item">
+                                        <div class="basket__item-image">
+                                            <img src="img/top-sales/4.png" alt="">
+                                        </div>
+                                        <div class="basket__item-content">
+                                            <h3 class="basket__item-title">Biofarba</h3>
+                                            <p class="basket__item-article">Артикул: <span>FTXP35</span></p>
+                                            <p class="basket__item-price">1 071 грн</p>
+                                            <div class="basket__item-count">
+                                                <button class="basketPopup-minus"></button>
+                                                <span class="basketPopup-total">1</span>
+                                                <button class="basketPopup-plus"></button>
+                                            </div>
+                                        </div>
+                                        <button class="basket__item-delete">Видалити</button>
+                                    </div>
+                                    <div class="basket__item">
+                                        <div class="basket__item-image">
+                                            <img src="img/top-sales/4.png" alt="">
+                                        </div>
+                                        <div class="basket__item-content">
+                                            <h3 class="basket__item-title">Biofarba</h3>
+                                            <p class="basket__item-article">Артикул: <span>FTXP35</span></p>
+                                            <p class="basket__item-price">1 071 грн</p>
+                                            <div class="basket__item-count">
+                                                <button class="basketPopup-minus"></button>
+                                                <span class="basketPopup-total">1</span>
+                                                <button class="basketPopup-plus"></button>
+                                            </div>
+                                        </div>
+                                        <button class="basket__item-delete">Видалити</button>
+                                    </div>
+                                </div>
+                                <div class="order__basket-line"></div>
+                                <div class="order__basket-total">
+                                    <div class="order__basket-price">
+                                        <p class="order__basket-price--descr">Разом:</p>
+                                        <p class="order__basket-price--descr">2 142 грн</p>
+                                    </div>
+                                    <div class="order__basket-price">
+                                        <p class="order__basket-price--descr">Всього:</p>
+                                        <p class="order__basket-price--total">2 142 грн</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="order__basket-btn btn">Оформлення замовлення</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="basketPopup">
+            <div class="basketPopup__inner">
+                <div class="basketPopup__top">
+                    <h2 class="basketPopup__title">В кошику (2) товари</h2>
+                    <button class="basketPopup__close">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M25.3327 8.54602L23.4527 6.66602L15.9993 14.1193L8.54602 6.66602L6.66602 8.54602L14.1193 15.9993L6.66602 23.4527L8.54602 25.3327L15.9993 17.8793L23.4527 25.3327L25.3327 23.4527L17.8793 15.9993L25.3327 8.54602Z" fill="white"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="basketPopup__content">
+                    <div class="basket__item">
+                        <div class="basket__item-image">
+                            <img src="img/top-sales/4.png" alt="">
+                        </div>
+                        <div class="basket__item-content">
+                            <h3 class="basket__item-title">Biofarba</h3>
+                            <p class="basket__item-article">Артикул: <span>FTXP35</span></p>
+                            <p class="basket__item-price">1 071 грн</p>
+                            <div class="basket__item-count">
+                                <button class="basketPopup-minus"></button>
+                                <span class="basketPopup-total">1</span>
+                                <button class="basketPopup-plus"></button>
+                            </div>
+                        </div>
+                        <button class="basket__item-delete">Видалити</button>
+                    </div>
+
+                    <div class="basket__item">
+                        <div class="basket__item-image">
+                            <img src="img/top-sales/4.png" alt="">
+                        </div>
+                        <div class="basket__item-content">
+                            <h3 class="basket__item-title">Biofarba</h3>
+                            <p class="basket__item-article">Артикул: <strong>FTXP35</strong></p>
+                            <p class="basket__item-price">1 071 грн</p>
+                            <div class="basket__item-count">
+                                <button class="basketPopup-minus"></button>
+                                <span class="basketPopup-total">1</span>
+                                <button class="basketPopup-plus"></button>
+                            </div>
+                        </div>
+                        <button class="basket__item-delete">Видалити</button>
+                    </div>
+                </div>
+
+                <div class="basketPopup__bottom">
+                    <div class="basketPopup__total">
+                        <p class="basketPopup__total-name">Всього:</p>
+                        <p class="basketPopup__total-price">2 142 грн</p>
+                    </div>
+                    <div class="basketPopup__buttons">
+                        <button class="basketPopup__close-btn btn-3 basketPopup__close">Продовжити покупки</button>
+                        <a class="basketPopup__close-btn btn" href="order.html">Оформити замовлення</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__box">
+                    <a class="footer__logo" href="#">
+                        <img src="img/Polifarb_logo_footer.svg" alt="">
+                    </a>
+
+                    <p class="footer__copy">©<br>
+                        2024 polifarb.<br> 
+                        All rights reserverd
+                    </p>
+                </div>
+                <div class="footer_content">
+                    <div class="footer__box">
+                        <div class="footer__block">
+                            <h3 class="footer__block-name">Адреса</h3>
+                            <p class="footer__block-descr">ул. Данила Галицкого, 10 г. Днепр, 49102</p>
+                        </div>
+                        <div class="footer__block">
+                            <h3 class="footer__block-name">Контакти</h3>
+                            <a class="footer__block-descr" href="tel:+380567901560">+38 056 790-15-60</a>
+                            <a class="footer__block-descr" href="tel:+380676761335">+38 067 676-13-35</a>
+                        </div>
+                    </div>
+                    <div class="footer__box">
+                        <ul>
+                            <li>
+                                <a href="catalog.html">Каталог</a>
+                            </li>
+                            <li>
+                                <a href="about.html">Про Поліфарб</a>
+                            </li>
+                            <li>
+                                <a href="projects.html">Реалізовані проекти</a>
+                            </li>
+                            <li>
+                                <a href="#">Акції</a>
+                            </li>
+                            <li>
+                                <a href="vacancies.html">Вакансії</a>
+                            </li>
+                            <li>
+                                <a href="blog.html">Блог</a>
+                            </li>
+                            <li>
+                                <a href="contacts.html">Контакти</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <p class="footer__copy">©<br>
+                        2024 polifarb.<br> 
+                        All rights reserverd
+                    </p>
+                    <div class="footer__social">
+                        <a class="footer__social-item" href="#" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                                <path d="M16.542 0C18.2294 0.0044999 19.0859 0.0134997 19.8253 0.0344992L20.1163 0.0449989C20.4523 0.0569986 20.7838 0.0719982 21.1843 0.0899978C22.7802 0.164996 23.8691 0.41699 24.8246 0.787482C25.8145 1.16847 26.6485 1.68446 27.4825 2.51694C28.2452 3.26677 28.8353 4.17379 29.2119 5.17488C29.5824 6.13036 29.8343 7.21933 29.9093 8.81679C29.9273 9.21578 29.9423 9.54728 29.9543 9.88477L29.9633 10.1758C29.9858 10.9137 29.9948 11.7702 29.9978 13.4577L29.9993 14.5767V16.5416C30.003 17.6357 29.9915 18.7298 29.9648 19.8235L29.9558 20.1145C29.9438 20.452 29.9288 20.7835 29.9108 21.1825C29.8358 22.78 29.5809 23.8674 29.2119 24.8244C28.8364 25.8261 28.2461 26.7333 27.4825 27.4824C26.7324 28.2448 25.8255 28.835 24.8246 29.2118C23.8691 29.5823 22.7802 29.8343 21.1843 29.9093C20.8284 29.9261 20.4724 29.9411 20.1163 29.9543L19.8253 29.9633C19.0859 29.9843 18.2294 29.9948 16.542 29.9978L15.4231 29.9993H13.4597C12.3651 30.0031 11.2706 29.9916 10.1763 29.9648L9.88536 29.9558C9.52929 29.9423 9.17331 29.9268 8.81741 29.9093C7.2215 29.8343 6.13255 29.5823 5.1756 29.2118C4.17466 28.8359 3.26802 28.2456 2.51924 27.4824C1.75584 26.7328 1.16514 25.8257 0.788325 24.8244C0.417844 23.8689 0.165857 22.78 0.0908608 21.1825C0.0741498 20.8266 0.0591505 20.4706 0.0458631 20.1145L0.0383637 19.8235C0.0107232 18.7298 -0.00177754 17.6357 0.000865457 16.5416V13.4577C-0.00332078 12.3636 0.00767983 11.2695 0.0338639 10.1758L0.0443633 9.88477C0.0563627 9.54728 0.0713619 9.21578 0.0893609 8.81679C0.164357 7.21933 0.416344 6.13186 0.786825 5.17488C1.16348 4.17276 1.75536 3.26546 2.52074 2.51694C3.26934 1.75417 4.17537 1.16395 5.1756 0.787482C6.13255 0.41699 7.22 0.164996 8.81741 0.0899978C9.21639 0.0719982 9.54938 0.0569986 9.88536 0.0449989L10.1763 0.0359991C11.2701 0.00934884 12.3641 -0.002152 13.4582 0.00149986L16.542 0ZM15.0001 7.49982C13.0111 7.49983 11.1035 8.28998 9.69707 9.69647C8.29062 11.103 7.50048 13.0106 7.50048 14.9996C7.50048 16.9887 8.29062 18.8963 9.69707 20.3028C11.1035 21.7093 13.0111 22.4995 15.0001 22.4995C16.9891 22.4995 18.8967 21.7093 20.3031 20.3028C21.7096 18.8963 22.4997 16.9887 22.4997 14.9996C22.4997 13.0106 21.7096 11.103 20.3031 9.69647C18.8967 8.28998 16.9891 7.49982 15.0001 7.49982ZM15.0001 10.4998C15.591 10.4997 16.1762 10.616 16.7221 10.842C17.2681 11.0681 17.7642 11.3994 18.1821 11.8172C18.6 12.235 18.9316 12.731 19.1578 13.2769C19.384 13.8228 19.5005 14.408 19.5006 14.9989C19.5007 15.5898 19.3844 16.175 19.1584 16.721C18.9323 17.267 18.601 17.7631 18.1832 18.181C17.7654 18.5989 17.2694 18.9305 16.7235 19.1567C16.1776 19.383 15.5925 19.4994 15.0016 19.4995C13.8082 19.4995 12.6637 19.0254 11.8198 18.1816C10.9759 17.3377 10.5018 16.1931 10.5018 14.9996C10.5018 13.8062 10.9759 12.6616 11.8198 11.8177C12.6637 10.9738 13.8082 10.4998 15.0016 10.4998M22.8762 5.24988C22.3789 5.24988 21.9021 5.44742 21.5504 5.79904C21.1988 6.15066 21.0013 6.62756 21.0013 7.12483C21.0013 7.6221 21.1988 8.09901 21.5504 8.45063C21.9021 8.80225 22.3789 8.99979 22.8762 8.99979C23.3734 8.99979 23.8503 8.80225 24.202 8.45063C24.5536 8.09901 24.7511 7.6221 24.7511 7.12483C24.7511 6.62756 24.5536 6.15066 24.202 5.79904C23.8503 5.44742 23.3734 5.24988 22.8762 5.24988Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a class="footer__social-item" href="#" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="36" viewBox="0 0 19 36" fill="none">
+                                <path d="M12.6667 20.7H17.1905L19 13.5H12.6667V9.9C12.6667 8.046 12.6667 6.3 16.2857 6.3H19V0.252C18.4101 0.1746 16.1826 0 13.8302 0C8.91733 0 5.42857 2.9826 5.42857 8.46V13.5H0V20.7H5.42857V36H12.6667V20.7Z" fill="white"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/order.js"></script>
+</body>
+</html>
