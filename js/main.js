@@ -88,22 +88,20 @@ document.addEventListener('DOMContentLoaded', () => {
         let maxTranslateY;
         let minTranslateY;
         if(window.innerWidth > 1439){
-            startEffect = blockOffsetTop + 8300;
+            startEffect = blockOffsetTop + 8700;
             maxTranslateY = 520;
             minTranslateY = -520;
         }
-        else if (window.innerWidth > 1279){
+        else if (window.innerWidth < 1000 && window.innerWidth > 1279){
             startEffect = blockOffsetTop + 8900;
             maxTranslateY = 520;
             minTranslateY = -220;
         }
-        else if (window.innerWidth > 999){
+        else{
             startEffect = blockOffsetTop + 7800;
             maxTranslateY = 520;
             minTranslateY = -120;
         }
-
-
 
 
         if (scrollY >= startEffect && window.innerWidth > 767) {

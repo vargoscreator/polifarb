@@ -2341,6 +2341,7 @@ a.basketPopup__close-btn{
         animation: none !important;
         transition: none !important;
         opacity: 1 !important;
+        transform: none !important;
     }
 }
 @media (max-width: 767px) {
@@ -2990,6 +2991,7 @@ a.basketPopup__close-btn{
         animation: none !important;
         transition: none !important;
         opacity: 1 !important;
+        transform: none !important;
     }
 }
 @media (max-width: 999px) {
