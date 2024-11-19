@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
       },
     });
 
-    const projectItemButtons = document.querySelectorAll(".project-item-btn, .projectsPopup__close");
+    const projectItemButtons = document.querySelectorAll(".project-item-btn, .project-popup-open, .projectsPopup__close");
     const projectsPopup = document.querySelector(".projectsPopup");
     projectItemButtons.forEach(button => {
         button.addEventListener("click", function () {

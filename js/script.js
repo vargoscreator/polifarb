@@ -1,4 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
+    if (typeof AOS !== 'undefined' && AOS) {
+        AOS.init({
+            once: true,
+            duration: 600
+        });
+    }    
     const headerBurger = document.querySelector('.header__burger');
     const headerMenu = document.querySelector('.header__menu');
     const body = document.querySelector('.body');
@@ -82,7 +88,17 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-
+    const telBtnOpen = document.querySelector('.tel-btn');
+    const telContent = document.querySelector('.header__tel-content');
+    telBtnOpen.addEventListener('click', (event) => {
+        event.stopPropagation();
+        telContent.classList.toggle('active');
+    });
+    document.addEventListener('click', (event) => {
+        if (!telContent.contains(event.target) && !telBtnOpen.contains(event.target)) {
+            telContent.classList.remove('active');
+        }
+    });
 
 
     const basketPopup = document.querySelector(".basketPopup");
@@ -167,5 +183,13 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         });
     }
+    
+    if(document.querySelector('.bannerBlock__btn')){
+        document.querySelector('.bannerBlock__btn').addEventListener('click', function () {
+            const details = document.querySelector('.bannerBlock__details');
+            details.classList.toggle('hidden');
+            this.textContent = details.classList.contains('hidden') ? 'Детальніше' : 'Приховати';
+        });
+    }   
 
 });

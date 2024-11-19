@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="body"> 
@@ -124,11 +125,15 @@
                                 <path d="M4.69231 4.6L13 10.9L21.3077 4.6M3.30769 1H22.6923C23.9668 1 25 2.00736 25 3.25V16.75C25 17.9926 23.9668 19 22.6923 19H3.30769C2.03319 19 1 17.9926 1 16.75V3.25C1 2.00736 2.03319 1 3.30769 1Z" stroke="#6600A1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                         </a>
-                        <a class="header__block-item" href="#">
+                        <button class="header__block-item tel-btn" href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.61812 0.121921C2.93165 0.301823 2.33801 0.677878 1.81657 1.2631C-2.09145 5.64922 0.544259 14.4152 7.44003 19.9657C8.01726 20.4302 8.15304 20.4985 8.49974 20.4985C9.04012 20.4985 9.38137 20.1663 9.41277 19.6095C9.44105 19.1087 9.41744 19.0767 8.4143 18.2571C2.58956 13.4978 0.122891 5.7986 3.35069 2.45213C4.0855 1.6903 5.08979 1.77 5.9333 2.6571C7.323 4.1185 7.87057 5.32642 7.55316 6.23024C7.41091 6.63532 7.2164 6.87357 6.11055 7.9973C4.78305 9.34632 4.72577 9.47633 5.10932 10.2701C6.60946 13.3746 10.6409 17.409 13.743 18.9103C14.5361 19.2942 14.666 19.2368 16.014 17.9083C17.1369 16.8016 17.375 16.607 17.7797 16.4646C18.6829 16.147 19.8899 16.6949 21.3502 18.0857C22.5916 19.2679 22.2302 20.5544 20.3986 21.4733C18.5504 22.4005 16.084 22.2956 13.2161 21.1676C12.1548 20.7502 11.4786 21.0736 11.5357 21.9712C11.5767 22.6153 12.11 22.9359 14.1022 23.5137C19.6246 25.1155 24.7623 22.5705 23.9061 18.6573C23.5063 16.8301 20.604 14.5676 18.531 14.4671C17.2046 14.4028 16.4999 14.7452 15.0184 16.1738C14.1151 17.0449 14.2238 16.9899 13.8509 16.7646C11.3342 15.2436 8.52671 12.409 7.16877 10.0178L7.05671 9.82048L7.29023 9.57276C7.41864 9.43645 7.76882 9.07197 8.06837 8.76278C10.2683 6.49188 10.0898 4.36226 7.45567 1.45427C6.3334 0.21535 5.01219 -0.243339 3.61812 0.121921Z" fill="#ED6E00"/>
                             </svg>
-                        </a>
+                            <div class="header__tel-content">
+                                <a class="header__tel-item" href="tel:+380567901560">+38 056 790-15-60</a>
+                                <a class="header__tel-item" href="tel:+380676761335">+38 067 676-13-35</a>
+                            </div>
+                        </button>
                         <button class="header__block-item basket-btn">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 0 25 23" fill="none">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666196 0.0482269C0.10966 0.249144 -0.155786 0.885816 0.0947273 1.419C0.236807 1.72142 0.343288 1.78772 1.61936 2.36837C2.32238 2.68825 2.84559 2.9549 2.88377 3.01278C2.91956 3.06706 3.53816 5.64661 4.25845 8.74511C5.74477 15.1392 5.67508 14.9065 6.26665 15.4484C6.62799 15.7794 6.95689 15.9658 7.3624 16.0696C7.7836 16.1774 20.7009 16.181 21.1122 16.0735C21.7862 15.8972 22.4438 15.3773 22.7357 14.7897C22.9472 14.3641 24.9566 5.941 24.9952 5.31794C25.0723 4.07629 24.2123 2.95509 22.9892 2.70267C22.7893 2.66139 20.7257 2.65062 15.1053 2.66151L7.49219 2.67631L7.28314 2.82139C6.60563 3.2915 6.77871 4.36807 7.56635 4.58292C7.69507 4.61801 10.0889 4.63429 15.1528 4.63448C23.281 4.63479 22.7523 4.6151 22.9145 4.92329C23.0274 5.1377 23.0567 4.99286 21.9761 9.55738C20.9173 14.0292 20.9371 13.9577 20.7213 14.0829C20.4894 14.2175 7.92492 14.2008 7.73162 14.0656C7.53447 13.9277 7.59546 14.1622 6.25317 8.38239C4.68607 1.6344 4.83527 2.15532 4.30967 1.59757C4.00088 1.26995 3.80058 1.15841 2.29063 0.473211C1.25808 0.00471347 0.98482 -0.0667775 0.666196 0.0482269ZM9.26696 18.0996C7.41513 18.5402 6.71249 20.8131 8.00437 22.184C9.50834 23.7799 12.184 22.8961 12.3884 20.736C12.5467 19.0626 10.9363 17.7025 9.26696 18.0996ZM17.9684 18.1066C16.0691 18.6018 15.4251 20.9078 16.8071 22.2653C18.3981 23.8284 21.1187 22.7271 21.1187 20.52C21.1187 18.9015 19.5446 17.6956 17.9684 18.1066ZM10.364 19.7918C10.851 20.1568 10.9053 20.7243 10.4922 21.1302C10.075 21.5399 9.45868 21.4746 9.1228 20.9849C8.58756 20.2047 9.60707 19.2247 10.364 19.7918ZM19.0934 19.7842C19.7677 20.2227 19.5241 21.2686 18.7183 21.3944C18.3016 21.4595 17.8412 21.1613 17.7252 20.751C17.506 19.9755 18.4076 19.3384 19.0934 19.7842Z" fill="#00B394"/>
@@ -145,12 +150,12 @@
         <section class="hero">
             <div class="container">
                 <div class="hero__inner">
-                    <h1 class="hero__title">Polifarb </h1>
-                    <p class="hero__descr">Фарби сучасного світу</p>
-                    <a class="hero__btn btn" href="#">До каталогу</a>
-                    <div class="hero__image">
-                        <img src="img/hero.webp" alt="">
-                    </div>
+                    <h1 class="hero__title" data-aos="fade-up" data-aos-delay="0">Polifarb </h1>
+                    <p class="hero__descr" data-aos="fade-up" data-aos-delay="50">Фарби сучасного світу</p>
+                    <a class="hero__btn btn" data-aos="fade-up" data-aos-delay="100" href="#">До каталогу</a>
+                    <video class="hero__video" autoplay loop muted playsinline data-aos="fade-right" data-aos-delay="150">
+                        <source src="hero.mp4">
+                    </video>
                 </div>
             </div>
         </section>
@@ -158,9 +163,9 @@
         <section class="clients">
             <div class="container">
                 <div class="clients__inner">
-                    <h2 class="clients__title">Наші клієнти — серед вас</h2>
+                    <h2 class="clients__title" data-aos="fade-up" data-aos-delay="0">Наші клієнти — серед вас</h2>
                     <div class="clients__block">
-                        <div class="clients__item">
+                        <div class="clients__item" data-aos="fade-up" data-aos-delay="50">
                             <div class="clients__item-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="51" height="50" viewBox="0 0 51 50" fill="none">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M4.81339 0.251106C3.9483 0.975953 4.12983 3.43249 5.07989 3.85822L5.39632 4.00004V6.89969V9.79946L2.80907 11.7932C1.38615 12.8899 0.17698 13.8707 0.122076 13.9731C-0.129006 14.4403 -0.000853598 14.9146 0.581691 15.6732C1.96525 17.4749 2.10296 17.4954 3.84346 16.1574L4.89861 15.3463V27.3444V39.3424L4.47569 39.6031C3.60958 40.137 2.93493 40.9616 2.56487 41.9387C2.43875 42.2716 2.30831 42.4352 2.10079 42.5209C1.3292 42.8391 0.630991 43.9271 0.546405 44.9429C0.519144 45.2707 0.423603 45.6504 0.334049 45.7867C0.0857702 46.1648 0.0958338 49.0002 0.346915 49.3821C0.791117 50.0577 -1.55295 49.9987 24.8207 49.9987H48.5833L48.8049 49.7778C49.1118 49.4723 49.1076 48.8987 48.7966 48.6479C48.5996 48.4891 48.3901 48.4625 47.3337 48.4625H46.1007V41.3765C46.1007 37.4792 46.1254 34.2905 46.1557 34.2905C46.1861 34.2905 46.5108 34.528 46.8773 34.8184C48.8812 36.4058 49.0122 36.4037 50.2289 34.7628C51.0422 33.6656 51.1757 33.1954 50.7998 32.7503C50.5543 32.4595 34.8465 20.3689 34.4442 20.1609C33.5508 19.6992 32.866 19.9231 31.2089 21.2189C30.5888 21.7039 30.0582 22.1006 30.0298 22.1006C30.0014 22.1006 29.9781 21.5687 29.9781 20.9184C29.9781 19.4493 29.6791 19.0591 28.8439 19.4381C28.471 19.6072 28.4467 19.7256 28.3892 21.6526L28.3361 23.4346L22.5141 27.9171C15.0858 33.6365 15.577 33.0361 16.8974 34.7817C17.7165 35.8645 17.8526 35.9753 18.3624 35.9753C18.7876 35.9753 18.1825 36.419 26.5709 29.9546L33.5636 24.5657L35.1795 25.8079C36.0683 26.4911 38.5196 28.38 40.627 30.0055L44.4586 32.9611L44.484 40.7118L44.5095 48.4625H41.5731H38.6365V47.6311C38.6365 46.5894 38.4809 46.3363 37.8404 46.3363C37.1999 46.3363 37.0442 46.5894 37.0442 47.6311V48.4625H33.5609H30.0777V42.8135V37.1646H33.5609H37.0442V40.4303C37.0442 43.9476 37.0647 44.1033 37.5548 44.3055C37.8911 44.4442 38.3828 44.2897 38.5409 43.9957C38.7118 43.6775 38.6642 36.6132 38.4888 36.2754C38.119 35.5633 38.228 35.5789 33.6153 35.5789C29.0399 35.5789 29.0645 35.5757 28.6803 36.203C28.4933 36.5085 28.486 36.744 28.4856 42.4914L28.4854 48.4625H25.6988H22.9122V47.3179C22.912 45.6657 22.604 45.1918 21.5303 45.1923L20.9714 45.1926L21.0039 44.4562C21.1868 40.3114 16.2184 38.0348 13.1091 40.8385L12.7111 41.1975L11.7945 41.1512L10.8779 41.1049L10.525 40.6537C9.74305 39.6543 8.58255 39.0561 7.2623 38.9721L6.49096 38.9229V26.5202V14.1173L11.89 9.95752C14.8596 7.66957 17.3574 5.80024 17.4408 5.80315C17.5244 5.8062 20.0208 7.67934 22.9886 9.96564L28.3844 14.1225L28.3851 15.3797C28.386 17.0148 28.5496 17.4317 29.1934 17.4394C29.7747 17.4465 29.9781 17.1225 29.9781 16.19V15.3483L31.024 16.1549C32.7706 17.5018 32.9559 17.4715 34.2913 15.6215C34.9403 14.7224 35.0254 14.2744 34.6308 13.8345C34.2603 13.4213 18.7141 1.48274 18.2843 1.28117C17.2521 0.797342 16.7974 0.993966 14.0838 3.09849C12.9778 3.95615 12.0485 4.65804 12.0187 4.65804C11.8611 4.65804 11.9795 3.97302 12.1462 3.92025C12.7237 3.73771 12.9083 3.32391 12.9434 2.13236C13.0076 -0.0424361 13.0942 6.01143e-05 8.59809 6.01143e-05H5.11301L4.81339 0.251106ZM11.3676 1.98216V2.47766H8.6307H5.8939V1.98216V1.48667H8.6307H11.3676V1.98216ZM25.2509 8.5814C29.4656 11.8285 32.9449 14.5152 32.9826 14.5517C33.0201 14.5882 32.9306 14.7639 32.7835 14.9421L32.5159 15.2663L25.1153 9.56566C19.3405 5.11738 17.653 3.8652 17.4337 3.8652C17.1448 3.8652 17.1279 3.87788 6.24217 12.2736L2.36079 15.2673L2.08767 14.9471C1.93748 14.771 1.84793 14.5938 1.88869 14.5535C2.272 14.1737 17.3243 2.67606 17.4374 2.67682C17.5201 2.6772 21.0361 5.33443 25.2509 8.5814ZM10.3679 4.98012L10.3634 5.99597L8.87057 7.13564C8.04943 7.76243 7.29007 8.33657 7.18306 8.41129C6.99173 8.54512 6.98867 8.50985 6.98867 6.25577V3.96427H8.68051H10.3723L10.3679 4.98012ZM13.3051 11.1039C12.9381 11.2127 12.582 11.5295 12.4562 11.8591C12.2849 12.3076 12.3362 24.834 12.5106 25.1699C12.8804 25.8821 12.7713 25.8665 17.384 25.8665C21.9594 25.8665 21.9348 25.8697 22.319 25.2424C22.6217 24.748 22.622 12.219 22.3193 11.7246C21.8971 11.035 22.0146 11.0523 17.5922 11.0324C15.4002 11.0225 13.4711 11.0547 13.3051 11.1039ZM16.6423 14.0731V15.5595H15.2987H13.9551V14.0731V12.5865H15.2987H16.6423V14.0731ZM20.9217 14.0731V15.5595H19.5782H18.2346V14.0731V12.5865H19.5782H20.9217V14.0731ZM16.6423 18.4832V19.8211H15.2987H13.9551V18.4832V17.1452H15.2987H16.6423V18.4832ZM20.9217 18.4832V19.8211H19.5782H18.2346V18.4832V17.1452H19.5782H20.9217V18.4832ZM16.6423 22.8438V24.2808H15.2987H13.9551V22.8438V21.4068H15.2987H16.6423V22.8438ZM20.9217 22.8438V24.2808H19.5782H18.2346V22.8438V21.4068H19.5782H20.9217V22.8438ZM33.871 21.6868C34.0015 21.7863 37.4895 24.4691 41.6223 27.6484C45.7549 30.8278 49.1461 33.4358 49.1582 33.444C49.2062 33.4765 48.7328 34.089 48.6583 34.0905C48.6145 34.0915 45.3003 31.5628 41.2937 28.4713C34.7883 23.4518 33.9661 22.847 33.6107 22.8184C33.2214 22.7871 33.0506 22.9115 25.8479 28.472L18.4834 34.1577L18.2137 33.8524C18.0654 33.6846 17.945 33.5248 17.9463 33.4977C17.9494 33.4265 33.4698 21.5059 33.5592 21.5059C33.6001 21.5059 33.7404 21.5873 33.871 21.6868ZM8.19287 40.8104C8.77286 41.0924 9.29363 41.6097 9.67515 42.2826C10.0202 42.8915 10.2815 43.0044 10.9401 42.829C12.4556 42.4253 13.7898 43.4598 13.581 44.8767L13.5345 45.192H12.6573C11.5164 45.192 11.1325 45.5609 11.4807 46.3222C11.6792 46.7557 11.9344 46.7777 16.7566 46.7777H21.3198V47.6202V48.4625H11.5168H1.71392V47.6202V46.7777H5.13263C7.26306 46.7777 8.6642 46.7385 8.85095 46.6737C9.36598 46.495 9.52229 45.8981 9.17082 45.4531L8.96458 45.192H5.53836C3.24945 45.192 2.112 45.1581 2.112 45.0898C2.112 44.5712 2.51926 44.1058 3.27544 43.7597C3.73811 43.548 3.80333 43.4789 3.90206 43.0941C4.43976 40.9994 6.41657 39.9472 8.19287 40.8104ZM30.6981 40.9301C29.9514 41.623 30.3531 44.0425 31.2151 44.0425C31.8786 44.0425 31.9686 43.847 31.9686 42.4056C31.9686 40.8105 31.4617 40.2218 30.6981 40.9301ZM16.9859 41.2771C18.5272 41.5375 19.685 43.2561 19.3864 44.8405L19.3203 45.192H17.227H15.1336L15.1918 44.9196C15.3331 44.2592 14.9493 43.0455 14.3898 42.3835C14.1018 42.0426 14.1461 41.9663 14.8542 41.5824C15.336 41.3213 16.1253 41.1225 16.4431 41.1824C16.5253 41.1979 16.7695 41.2404 16.9859 41.2771Z" fill="#ED6E00"/>
@@ -171,7 +176,7 @@
                                 <p>Затишна тераса на дачі, рідна домівка, дитячий майданчик у дворі — те, що оточує вас і потребує оновлення чи ремонту</p>
                             </div>
                         </div>
-                        <div class="clients__item">
+                        <div class="clients__item" data-aos="fade-up" data-aos-delay="100">
                             <div class="clients__item-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="53" height="50" viewBox="0 0 53 50" fill="none">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M13.2149 0.146073C11.9044 0.633781 11.6785 1.24309 11.6386 4.39504L11.6057 7.00194L9.9549 7.54634C7.51766 8.35039 6.98215 8.68972 6.40171 9.79836L6.16138 10.2575L6.13434 24.0016L6.10744 37.7456L5.62417 37.8106C2.97887 38.1668 0.783787 40.0595 0.145091 42.5348C0.00677149 43.0709 -0.0162164 43.6549 0.0088613 46.0122L0.0389023 48.8455L0.333173 49.231C0.977878 50.0758 -1.63386 49.9981 26.1104 49.9981C53.8548 49.9981 51.2431 50.0758 51.8876 49.231L52.1819 48.8453L52.2114 45.4247C52.239 42.2318 52.2272 41.9588 52.0339 41.3227C51.382 39.1763 49.3709 37.7661 46.9523 37.7594L46.3146 37.7576V31.1449V24.5324L46.0545 24.0103C45.3687 22.6343 45.5046 22.6555 37.3731 22.6555H30.4982V13.1982V3.74093L31.3911 4.60402C31.8821 5.07867 33.24 6.3895 34.4086 7.51695C37.0925 10.1063 36.8148 9.21348 36.8203 15.2717C36.8244 19.9154 36.8352 20.1968 37.0157 20.4197C37.3004 20.7713 37.8955 20.7463 38.2199 20.3693L38.4661 20.0829L38.4362 14.9128L38.4064 9.74259L38.0798 9.08169C37.5892 8.08903 30.2787 1.02275 29.7422 1.02275C29.4952 1.02275 18.2041 4.72262 16.7601 5.27681C16.6632 5.31403 16.6262 4.89855 16.6015 3.49721L16.5695 1.66915L16.2608 1.17008C15.6618 0.202236 14.2967 -0.256737 13.2149 0.146073ZM14.5099 1.75379C14.9561 1.99137 14.9813 2.11284 14.9847 4.03847L14.9879 5.88063L14.2481 6.11834C13.8412 6.24909 13.4483 6.37879 13.3749 6.40661C13.2671 6.44762 13.2475 6.04233 13.2729 4.29225L13.3042 2.12721L13.5905 1.88113C13.9059 1.60998 14.1711 1.57328 14.5099 1.75379ZM28.8655 4.98162V7.00155L28.1767 7.22385C20.2012 9.79758 11.9047 12.7082 11.7631 12.9819C11.542 13.4095 11.7217 13.9146 12.1595 14.096C12.471 14.225 12.8485 14.1091 20.5991 11.5043C25.0615 10.0046 28.747 8.77762 28.789 8.77775C28.8311 8.77788 28.8655 9.61968 28.8655 10.6485V12.5192L28.4829 12.6354C28.2724 12.6993 24.4591 13.9761 20.0087 15.4727C10.9943 18.5044 11.4483 18.304 11.7212 19.1308C11.9915 19.9499 11.5528 20.0545 20.5988 17.0139C25.0613 15.514 28.747 14.287 28.789 14.2874C28.8311 14.2878 28.8655 15.1276 28.8655 16.1537V18.0193L27.6665 18.4125C17.7048 21.6794 11.9113 23.7158 11.7631 24.0024C11.5421 24.4297 11.7217 24.9351 12.159 25.1162C12.4696 25.2449 12.8529 25.1271 20.5984 22.5235C25.0612 21.0234 28.747 19.7965 28.789 19.7972C28.8311 19.7978 28.8655 20.6374 28.8655 21.6628V23.5272L27.0543 24.1259C11.7997 29.1685 11.4431 29.3087 11.7212 30.1512C11.991 30.9689 11.5526 31.0735 20.5978 28.0331C25.0609 26.5329 28.747 25.3062 28.789 25.3071C28.8311 25.3079 28.8655 26.1469 28.8655 27.1716V29.0346L23.5595 30.8022C19.5057 32.1526 18.2173 32.6214 18.1003 32.7884C17.7433 33.298 18.0871 34.0841 18.6669 34.0841C18.8187 34.0841 21.138 33.3494 23.8209 32.4515C26.5037 31.5535 28.7362 30.8188 28.7821 30.8188C28.8279 30.8188 28.8655 34.7679 28.8655 39.5944V48.3699H25.6002H22.3349V44.1503C22.3349 37.9735 22.5758 38.1603 16.7191 39.7952C11.2262 41.3284 11.6271 40.8765 11.6231 45.5383L11.6206 48.3699H9.68179H7.74297V29.6421C7.74297 9.21531 7.70405 10.5149 8.33073 9.98775C8.55029 9.80293 10.2477 9.18997 14.1864 7.87313C17.237 6.85317 21.7533 5.33336 24.2227 4.49574C26.692 3.65799 28.747 2.97018 28.789 2.96705C28.8311 2.96404 28.8655 3.87063 28.8655 4.98162ZM44.2039 24.4069C44.688 24.6647 44.6752 24.4731 44.6787 31.5333L44.682 38.2172L44.2427 38.4501C42.7993 39.2159 41.8385 40.8248 41.7465 42.6301L41.6984 43.5741H36.0982H30.4982V33.931V24.2882H37.2397C42.1691 24.2882 44.0409 24.3202 44.2039 24.4069ZM32.9996 26.3461C32.095 27.0577 32.2235 29.9905 33.1793 30.4439C33.6822 30.6826 41.3127 30.7036 41.8768 30.4678C42.8965 30.0418 43.0181 26.8786 42.0369 26.2991C41.5229 25.9954 33.3917 26.0377 32.9996 26.3461ZM41.0085 28.3189V28.9821H37.539H34.0697V28.3189V27.6556H37.539H41.0085V28.3189ZM32.9569 32.204C32.5153 32.5755 32.4075 33.046 32.4536 34.4003C32.5249 36.4947 32.3658 36.4311 37.5322 36.4311C42.7872 36.4311 42.64 36.4954 42.6408 34.2017C42.6414 31.8309 42.8922 31.9413 37.5056 31.9413H33.2689L32.9569 32.204ZM41.0085 34.1863V34.7984H37.539H34.0697V34.1863V33.574H37.539H41.0085V34.1863ZM13.425 34.2051C11.7082 34.7875 11.4273 35.0317 11.7358 35.6737C12.052 36.3316 12.2468 36.3363 14.0772 35.7301C15.8723 35.1356 16.1104 34.9847 16.1104 34.4413C16.1104 33.5371 15.5412 33.4871 13.425 34.2051ZM33.3043 37.855C32.2504 38.2909 32.033 41.266 32.9996 42.0263C33.4233 42.3595 36.6465 42.3659 37.0682 42.0344C37.9908 41.3086 37.888 38.4631 36.9204 37.9441C36.5449 37.7427 33.7428 37.6736 33.3043 37.855ZM6.11031 41.4822V43.5741H3.8541H1.59777L1.66764 43.1914C2.01063 41.3122 3.98707 39.5764 5.9827 39.4015C6.08105 39.3929 6.11031 39.8708 6.11031 41.4822ZM36.0084 40.0535V40.7169H35.039H34.0697V40.0535V39.3903H35.039H36.0084V40.0535ZM48.1269 39.5789C49.6562 40.0548 50.476 41.1137 50.649 42.8366L50.7231 43.5741H47.0393H43.3553V42.9146C43.3553 40.5154 45.7522 38.8399 48.1269 39.5789ZM20.7022 44.3904V48.3699H19.2723H17.8425L17.8693 44.7744L17.896 41.1788L19.2227 40.8008C19.9523 40.593 20.5837 40.4202 20.6257 40.4168C20.6678 40.4135 20.7022 42.2016 20.7022 44.3904ZM16.2124 45.0026V48.3699H14.7328H13.2533L13.2547 45.5383C13.2556 43.9809 13.296 42.644 13.3446 42.5674C13.4076 42.4676 15.4395 41.8053 16.1868 41.6409C16.2009 41.6377 16.2124 43.1505 16.2124 45.0026ZM6.11031 46.7883V48.3699H3.91392H1.71754L1.61801 48.1082C1.56328 47.9642 1.51848 47.2525 1.51848 46.5266V45.2067H3.8144H6.11031V46.7883ZM41.7227 46.7883V48.3699H36.1105H30.4982V46.7883V45.2067H36.1105H41.7227V46.7883ZM50.7023 46.5266C50.7023 47.2525 50.6575 47.9642 50.6028 48.1082L50.5033 48.3699H46.9293H43.3553V46.7883V45.2067H47.0288H50.7023V46.5266Z" fill="#00B394"/>
@@ -194,13 +199,13 @@
 
         <section class="catalog-products">
             <div class="catalog-products__top">
-                <h2 class="catalog-products__title">Каталог продукції</h2>
+                <h2 class="catalog-products__title" data-aos="fade-up" data-aos-delay="0">Каталог продукції</h2>
             </div>
             <div class="catalog-products__inner">
                 <div class="container">
                     <p class="catalog-products__name">catalog</p>
-                    <div class="catalog-products__block">
-                        <div class="catalog-products__item">
+                    <div class="catalog-products__block catalog-paralax-effect">
+                        <div class="catalog-products__item" data-aos="fade-up">
                             <a class="catalog-products__image" href="#">
                                 <img src="img/catalog-products/1.webp" alt="">
                             </a>
@@ -208,7 +213,7 @@
                                 <h3>Інтер'єрні фарби</h3>
                             </a>
                         </div>
-                        <div class="catalog-products__item">
+                        <div class="catalog-products__item" data-aos="fade-up">
                             <a class="catalog-products__image" href="#">
                                 <img src="img/catalog-products/2.webp" alt="">
                             </a>
@@ -216,7 +221,7 @@
                                 <h3>Фасадні фарби</h3>
                             </a>
                         </div>
-                        <div class="catalog-products__item">
+                        <div class="catalog-products__item" data-aos="fade-up">
                             <a class="catalog-products__image" href="#">
                                 <img src="img/catalog-products/3.webp" alt="">
                             </a>
@@ -224,7 +229,7 @@
                                 <h3>Штукатурки та декор</h3>
                             </a>
                         </div>
-                        <div class="catalog-products__item">
+                        <div class="catalog-products__item" data-aos="fade-up">
                             <a class="catalog-products__image" href="#">
                                 <img src="img/catalog-products/4.webp" alt="">
                             </a>
@@ -232,7 +237,7 @@
                                 <h3>Підготовка поверхні</h3>
                             </a>
                         </div>
-                        <div class="catalog-products__item">
+                        <div class="catalog-products__item" data-aos="fade-up">
                             <a class="catalog-products__image" href="#">
                                 <img src="img/catalog-products/5.webp" alt="">
                             </a>
@@ -240,7 +245,7 @@
                                 <h3>Спеціальні матеріали</h3>
                             </a>
                         </div>
-                        <div class="catalog-products__item">
+                        <div class="catalog-products__item" data-aos="fade-up">
                             <a class="catalog-products__image" href="#">
                                 <img src="img/catalog-products/6.webp" alt="">
                             </a>
@@ -249,7 +254,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="catalog-products__video">
+                    <div class="catalog-products__video" data-aos="fade-up" data-aos-delay="0">
                         <button class="catalog-products__btn">
                             <svg xmlns="http://www.w3.org/2000/svg" width="168" height="168" viewBox="0 0 168 168" fill="none">
                                 <circle cx="84" cy="84" r="83.5" stroke="white"/>
@@ -267,8 +272,8 @@
         <section class="about-section">
             <div class="container">
                 <div class="about-section__inner">
-                    <h1 class="about-section__title"><span>Про компанію </span>Polifarb</h1>
-                    <div class="about-section__content">
+                    <h1 class="about-section__title" data-aos="fade-up" data-aos-delay="0"><span>Про компанію </span>Polifarb</h1>
+                    <div class="about-section__content" data-aos="fade-up" data-aos-delay="50">
                         <h3>Бренд POLIFARB – більшe 20 років досвіду</h3>
                         <div class="about-section__image on-mobile">
                             <img src="img/about-section.webp" alt="">
@@ -320,8 +325,8 @@
         <section class="pick-up">
             <div class="container">
                 <div class="pick-up__inner">
-                    <h2 class="pick-up__title">НАШІ ФАХІВЦІ ПІДБЕРУТЬ <br>ДЛЯ ВАС ПРОДУКЦІЮ</h2>
-                    <div class="pick-up__slider">
+                    <h2 class="pick-up__title" data-aos="fade-up" data-aos-delay="0">НАШІ ФАХІВЦІ ПІДБЕРУТЬ <br>ДЛЯ ВАС ПРОДУКЦІЮ</h2>
+                    <div class="pick-up__slider" data-aos="fade-up" data-aos-delay="50">
                         <div class="swiper-wrapper">
                             <div class="pick-up__slide swiper-slide">
                                 <div class="pick-up__slide-image">
@@ -378,10 +383,10 @@
             <div class="container">
                 <div class="advice__inner">
                     <div class="advice__content">
-                        <h2 class="advice__title">Консультація</h2>
-                        <p class="advice__descr">Нашим фахівцям можна довіряти!</p>
+                        <h2 class="advice__title" data-aos="fade-up" data-aos-delay="0">Консультація</h2>
+                        <p class="advice__descr" data-aos="fade-up" data-aos-delay="50">Нашим фахівцям можна довіряти!</p>
                     </div>
-                    <form class="advice__form form__content" action="#">
+                    <form class="advice__form form__content" action="#" data-aos="fade-up" data-aos-delay="100">
                         <div class="form__content-box">
                             <div class="form__content-block">
                                 <input type="text" id="name" name="name">
@@ -398,13 +403,13 @@
             </div>
         </section>
 
-        <section class="partners">
+        <section class="partners" data-aos="fade-up">
             <div class="container">
                 <div class="partners__inner">
-                    <h2 class="partners__title">Наші партнери</h2>
+                    <h2 class="partners__title" data-aos="fade-up" data-aos-delay="0">Наші партнери</h2>
                 </div>
             </div>
-            <div class="partners__slider">
+            <div class="partners__slider" data-aos="fade-up" data-aos-delay="50">
                 <div class="partners__slider-block">
                     <div class="partners__slider-item">
                         <img src="img/partners/1.svg" alt="">
@@ -587,17 +592,19 @@
         <section class="top-sales">
             <div class="container">
                 <div class="top-sales__inner">
-                    <h2 class="top-sales__title">Топ продажів</h2>
-                    <div class="top-sales__block">
-                        <div class="top-sales__item product-item">
+                    <h2 class="top-sales__title" data-aos="fade-up" data-aos-delay="0">Топ продажів</h2>
+                    <div class="top-sales__block sales-paralax-effect">
+                        <div class="top-sales__item product-item" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-offset="100">
                             <div class="product-item__top">
                                 <div class="product-item__name">
-                                    <h3>AKrilgrunt</h3>
+                                    <a href="#">
+                                        <h3>AKrilgrunt</h3>
+                                    </a>
                                     <p>Топ</p>
                                 </div>
-                                <div class="product-image">
+                                <a class="product-image" href="#">
                                     <img src="img/top-sales/1.webp" alt="">
-                                </div>
+                                </a>
                                 <div class="product-item__about">
                                     <div class="product-item__stars" data-star="4">
                                         <svg width="36" height="33" viewBox="0 0 36 33" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -629,15 +636,17 @@
                             </div>
                         </div> 
 
-                        <div class="top-sales__item product-item">
+                        <div class="top-sales__item product-item" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-offset="100">
                             <div class="product-item__top">
                                 <div class="product-item__name">
-                                    <h3>Aqualux</h3>
+                                    <a href="#">
+                                        <h3>Aqualux</h3>
+                                    </a>
                                     <p>Топ</p>
                                 </div>
-                                <div class="product-image">
+                                <a class="product-image" href="#">
                                     <img src="img/top-sales/2.webp" alt="">
-                                </div>
+                                </a>
                                 <div class="product-item__about">
                                     <div class="product-item__stars" data-star="4">
                                         <svg width="36" height="33" viewBox="0 0 36 33" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -669,15 +678,17 @@
                             </div>
                         </div> 
 
-                        <div class="top-sales__item product-item">
+                        <div class="top-sales__item product-item" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-offset="100">
                             <div class="product-item__top">
                                 <div class="product-item__name">
-                                    <h3>Барви Природи</h3>
+                                    <a href="#">
+                                        <h3>Барви Природи</h3>
+                                    </a>
                                     <p>Топ</p>
                                 </div>
-                                <div class="product-image">
+                                <a class="product-image" href="#">
                                     <img src="img/top-sales/3.webp" alt="">
-                                </div>
+                                </a>
                                 <div class="product-item__about">
                                     <div class="product-item__stars" data-star="4">
                                         <svg width="36" height="33" viewBox="0 0 36 33" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -709,15 +720,17 @@
                             </div>
                         </div> 
 
-                        <div class="top-sales__item product-item">
+                        <div class="top-sales__item product-item" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-offset="100">
                             <div class="product-item__top">
                                 <div class="product-item__name">
-                                    <h3>Biofarba</h3>
+                                    <a href="#">
+                                        <h3>Biofarba</h3>
+                                    </a>
                                     <p>Топ</p>
                                 </div>
-                                <div class="product-image">
+                                <a class="product-image" href="#">
                                     <img src="img/top-sales/1.webp" alt="">
-                                </div>
+                                </a>
                                 <div class="product-item__about">
                                     <div class="product-item__stars" data-star="4">
                                         <svg width="36" height="33" viewBox="0 0 36 33" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -749,7 +762,7 @@
                             </div>
                         </div> 
                     </div>
-                    <a class="top-sales__more btn" href="#">До каталогу</a>
+                    <a class="top-sales__more btn" href="catalog.html">До каталогу</a>
                 </div>
             </div>
         </section>
@@ -757,8 +770,8 @@
         <section class="reviews">
             <div class="container">
                 <div class="reviews___inner">
-                    <h2 class="reviews__title">Відгуки наших покупців</h2>
-                    <div class="reviews__slider">
+                    <h2 class="reviews__title" data-aos="fade-up" data-aos-delay="0">Відгуки наших покупців</h2>
+                    <div class="reviews__slider" data-aos="fade-up" data-aos-delay="50">
                         <div class="swiper-wrapper">
                             <div class="reviews__slide swiper-slide">
                                 <h3>Барви Природи</h3>
@@ -909,7 +922,7 @@
         <section class="bannerBlock">
             <div class="container">
                 <div class="bannerBlock__inner">
-                    <div class="bannerBlock__content">
+                    <div class="bannerBlock__content" data-aos="fade-up" data-aos-delay="0">
                         <h2>Tech Twitter addicted Stripe Summer Intern. Direct delivery food buyer frictionless plugin. Former investment banker, UC Berkeley alumni. </h2>
                         <div class="bannerBlock__image on-mobile">
                             <img src="img/bannerBlock.webp" alt="">
@@ -917,14 +930,28 @@
                         <p>CBD gummy eating, hacker house resident. Doc-sending, TAM boosted IPO leading founder. Consumer Social underground crypto newsletter. SPAC leading Testflight user. Figma using Tik-Toker libertarian. Substack blogging Thiel Fellow dropout.</p>
                         <br>
                         <p>Cap table joining consumer social app. College Dropout, overenthusiastic founder. Microdosing CryptoPunk rationalist. Hacker News addicted Austin tech-worker. MVP finishing tech-bro.</p>
-                        <a class="bannerBlock__btn btn" href="#">Детальніше</a>
+                        <button class="bannerBlock__btn btn">Детальніше</button>
                     </div>
-                    <div class="bannerBlock__image no-mobile">
+                    <div class="bannerBlock__image no-mobile" data-aos="fade-up" data-aos-delay="50">
                         <img src="img/bannerBlock.webp" alt="">
                     </div>
                 </div>
+                <div class="bannerBlock__details hidden">
+                    <h3>Заголовок второго уровня</h3>
+                    <h4>Заголовок третьего уровня</h4>
+                    <ol class="ol-list">
+                        <li>Первый пункт нумерованного списка</li>
+                        <li>Второй пункт нумерованного списка</li>
+                    </ol>
+                    <ul class="ul-list">
+                        <li>Первый пункт маркированного списка</li>
+                        <li>Второй пункт маркированного списка</li>
+                    </ul>
+                    <p>Текст с <a href="#">ссылкой</a> внутри и <b>жирным выделением</b>.</p>
+                </div>
             </div>
         </section>
+        
 
         <section class="basketPopup">
             <div class="basketPopup__inner">
@@ -1062,6 +1089,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/script.js"></script>
     <script src="js/main.js"></script>
 </body>
